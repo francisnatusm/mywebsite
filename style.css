@@ -9,9 +9,14 @@ body {
   text-align: center;
   min-height: 100vh;
   color: #222;
-  background:
-    linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)),
-    url("images/campus-bg.jpg") center / cover no-repeat fixed;
+  background-color: #e8e8e8;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url("images/campus-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .page {
@@ -23,7 +28,7 @@ body {
 }
 
 h1 {
-  color: #1a4fd6;
+  color: blue;
   font-size: 2rem;
   margin-bottom: 18px;
 }
@@ -33,15 +38,14 @@ nav {
 }
 
 nav a {
-  margin: 0 14px;
+  margin: 0 10px;
   text-decoration: none;
   font-weight: bold;
   color: #222;
-  font-size: 1rem;
 }
 
 nav a:hover {
-  color: #1a4fd6;
+  color: blue;
 }
 
 .intro-text {
@@ -50,39 +54,27 @@ nav a:hover {
 }
 
 .content-card {
-  background: rgba(255, 255, 255, 0.88);
-  border-radius: 12px;
-  padding: 28px 36px;
-  max-width: 520px;
-  width: 100%;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-  line-height: 1.7;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 25px 35px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  line-height: 1.8;
 }
 
 .content-card p {
-  margin: 8px 0;
-}
-
-.content-card strong {
-  font-size: 1.05rem;
-}
-
-.profile-img {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 14px;
-  border: 3px solid #1a4fd6;
+  margin: 10px 0;
 }
 
 .logo {
-  width: 110px;
+  width: 100px;
+  max-width: 100px;
   height: auto;
-  margin-top: auto;
-  padding-top: 40px;
+  margin-top: 30px;
 }
 
-.contact-list p {
-  font-size: 1.05rem;
+img {
+  max-width: 120px;
+  height: auto;
 }
