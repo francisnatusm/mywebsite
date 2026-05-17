@@ -9,11 +9,11 @@ body {
   text-align: center;
   min-height: 100vh;
   color: #222;
-  background-color: #e8e8e8;
+  background-color: #d0d0d0;
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-    url("images/campus-bg.jpg");
-  background-position: center;
+    linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)),
+    url("images/campus-bg-new.jpg");
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
